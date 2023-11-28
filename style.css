@@ -1,0 +1,234 @@
+html {
+  background-color: black;
+}
+
+.dvm-logo {
+  display: block;
+  margin-left: 28%;
+  margin-right: 30;
+  width: 50%;
+}
+
+
+#design-1 {
+  margin-left: 150px;
+  margin-right: 325px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2{
+  color: azure;
+  display: block;
+  margin-left: 36%;
+  margin-right: 30;
+  width: 50%;
+}
+
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+  
+}
+
+.name {
+  background-color: rgb(170, 170, 206);
+  padding-bottom: 50px;
+  padding-top: 30px;
+  text-align: center;
+  
+  border-radius: 15px 50px 30px;
+  /* how to make this box-shadow visible only when mouse is hovered on it? */
+  box-shadow: 12px 8px 4px 2px #0ff;
+}
+
+#box-head {
+  font-size: xx-large;
+  font-family: 'M PLUS Code Latin', monospace;
+}
+
+#enterName {
+  appearance: none;
+  width: 40em;
+  height: 3em;
+  display: inline-block;
+  background: rgb(255, 255, 255);
+  
+  
+}
+
+#enterName:hover {
+  border-color: blue;
+  border-radius: 5px;
+}
+
+.name i {
+  position: absolute;
+  visibility: hidden;
+}
+
+
+
+.email {
+  background-color: rgb(170, 170, 206);
+  padding-bottom: 50px;
+  padding-top: 30px;
+  text-align: center;
+  border-radius: 15px 50px 30px;
+  /* how to make this box-shadow visible only when mouse is hovered on it? */
+  box-shadow: 12px 8px 4px 2px #0ff;
+}
+
+#enterEmail {
+  appearance: none;
+  width: 40em;
+  height: 3em;
+  display: inline-block;
+  background: rgb(255, 255, 255);
+
+}
+#enterEmail:hover {
+  border-color: blue;
+  border-radius: 5px;
+}
+
+.phone-number {
+  background-color: rgb(170, 170, 206);
+  padding-bottom: 50px;
+  padding-top: 30px;
+  text-align: center;
+  border-radius: 15px 50px 30px;
+  /* how to make this box-shadow visible only when mouse is hovered on it? */
+  box-shadow: 12px 8px 4px 2px #0ff;
+}
+
+#enterPhone {
+  appearance: none;
+  width: 40em;
+  height: 3em;
+  display: inline-block;
+  background: rgb(255, 255, 255);
+
+}
+#enterPhone :hover {
+  border-color: blue;
+  border-radius: 5px;
+}
+.bits-id {
+  background-color: rgb(170, 170, 206);
+  padding-bottom: 50px;
+  padding-top: 30px;
+  text-align: center;
+
+  border-radius: 15px 50px 30px;
+  /* how to make this box-shadow visible only when mouse is hovered on it? */
+  box-shadow: 12px 8px 4px 2px #0ff;
+}
+
+#enterBITSID {
+  appearance: none;
+  width: 40em;
+  height: 3em;
+  display: inline-block;
+  background: rgb(255, 255, 255);
+}
+#enterBITSID :hover {
+  border-color: blue;
+  border-radius: 5px;
+}
+
+.bhawan {
+  background-color: rgb(170, 170, 206);
+  padding-bottom: 50px;
+  padding-top: 30px;
+  text-align: center;
+  
+  border-radius: 15px 50px 30px;
+  /* how to make this box-shadow visible only when mouse is hovered on it? */
+  box-shadow: 12px 8px 4px 2px #0ff;
+}
+
+#bhawan-select{
+  appearance: none;
+  width: 40em;
+  height: 3em;
+  display: inline-block;
+  background: rgb(255, 255, 255); 
+  font-family: 'M PLUS Code Latin', monospace;
+  
+}
+#bhawan-select:hover {
+  border-color: blue;
+  border-radius: 5px;
+}
+
+.merchDesign {
+  background-color: rgb(170, 170, 206);
+  max-width: 800px;
+  min-width: 480px;
+  border-radius: 15px 50px 30px;
+  /* how to make this box-shadow visible only when mouse is hovered on it? */
+  box-shadow: 12px 8px 4px 2px #0ff;
+  font-size: large;
+  font-family: 'M PLUS Code Latin', monospace;
+  padding-left: 2%;
+}
+
+.merchSize {
+  background-color: rgb(170, 170, 206);
+  font-size: large;
+  font-family: 'M PLUS Code Latin', monospace;
+  padding-left: 4%;
+  border-radius: 15px 50px 30px;
+  /* how to make this box-shadow visible only when mouse is hovered on it? */
+  box-shadow: 12px 8px 4px 2px #0ff;
+}
+
+.agree {
+  background-color: rgb(170, 170, 206);
+  font-size: large;
+  font-family: 'M PLUS Code Latin', monospace;
+  border-radius: 15px 50px 30px;
+  /* how to make this box-shadow visible only when mouse is hovered on it? */
+  box-shadow: 12px 8px 4px 2px #0ff;
+  padding-left: 4%;
+}
+
+
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  /*box-shadow: 0 5px 15px rgba(145, 92, 182, .4); */
+}
+
+.form-button {
+  background-color: rgb(14, 50, 50);
+  color:rgb(202, 255, 255);
+  width: 50%;
+  display: block;
+  margin-left: 25%;
+  margin-right: 60%;
+  height: 30px;
+  position: relative;
+  
+}
+
+p1 {
+  font: small;
+}
+
+#design-1 {
+  border-style: double;
+  border-color: blue;
+  border-radius: 5px;
+}
+
+#design-2 {
+  border-style: double;
+  border-color: blue;
+  border-radius: 5px;
+}

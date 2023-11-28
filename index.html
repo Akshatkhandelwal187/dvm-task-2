@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css" integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/regular.min.css" integrity="sha512-rOTVxSYNb4+/vo9pLIcNAv9yQVpC8DNcFDWPoc+gTv9SLu5H8W0Dn7QA4ffLHKA0wysdo6C5iqc+2LEO1miAow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/solid.min.css" integrity="sha512-P9pgMgcSNlLb4Z2WAB2sH5KBKGnBfyJnq+bhcfLCFusrRc4XdXrhfDluBl/usq75NF5gTDIMcwI1GaG5gju+Mw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/svg-with-js.min.css" integrity="sha512-4oP5WpLD1feGamTDxyKyYjJj9a15AlPfKOt78LpGmZ+XfrUcuC7hjHVTuzhJhO4pPvi3RHL6CI2Tyjdoik3AnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/v4-font-face.min.css" integrity="sha512-sx5f0oBw5bYJXpvIAFXqCP3p5heQFrIDUJEUu2ja7WbmFHBHKY565OjQK2PQM+8PruMwcDR18WEIOse4qEBJ8Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/v4-shims.min.css" integrity="sha512-fWfO/7eGDprvp7/UATnfhpPDgF33fetj94tDv9q0z/WN4PDYiTP97+QcV1QWgpbkb+rUp76g6glID5mdf/K+SQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/v5-font-face.min.css" integrity="sha512-5zrDFDfoCqAqA6xPCDWHHy8cOXlRGgCy+/wh4eUwzJXAwyvBeBzCJ4AqVlasi+Dxr5b9qabJw67ocz+qsax4eQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/v5-font-face.min.css" integrity="sha512-5zrDFDfoCqAqA6xPCDWHHy8cOXlRGgCy+/wh4eUwzJXAwyvBeBzCJ4AqVlasi+Dxr5b9qabJw67ocz+qsax4eQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <!--dvm logo at top-->
+    <div class="dvm-logo">
+      <input type="image" alt="Click me!" src="https://bits-dvm.org/assets/img/DVM-Logo.svg"/>
+
+      <!--<img src="https://bits-dvm.org/assets/img/DVM-Logo.svg" height="300px">-->
+      <h2>DVM</h2>
+    </div>
+
+</head>
+<body>
+  <form action="https://www.foo.com/" method="POST"> 
+  <!--why make a POST request when no response is required back from website--> 
+    <h1>Registration form for Merch signings</h1>
+
+
+
+    <div class="form">
+
+      <div class="name">
+        <label for="" class="glow-button" id="box-head">Name</label>
+        <br>
+        <input type="text" required id="enterName" class="enterName" placeholder="e.g Akshat Khandelwal" focus> 
+        <p1 id="correct" hidden>Correct Name</p1>
+        <p1 id="incorrect" hidden>Incorrect Name</p1>
+      </div>
+
+      <br>
+
+      <div class="email">
+        <label for="" id="box-head">Email</label>
+        <br>
+        <input type="email" required id="enterEmail" class="enterEmail" minlength="5" maxlength="50" placeholder="e.g. f20230825@pilani.bits-pilani.ac.in">
+      </div>
+
+      <br>
+      
+
+      <div class="phone-number">
+        <label for="phone-number" id="box-head">Enter Phone number</label>
+        <br>
+        <input type="number" required id="enterPhone" class="enterPhone" placeholder="e.g. 1234567890" size="13" pattern="+91-[0-9]{10}">
+
+      </div>
+
+      <br>
+
+      <div class="bits-id">
+        <label for="bits-id" id="box-head">Enter BITS ID</label>
+        <br>
+        <input type="" required id="enterBITSID" class="enterBITSID" placeholder="e.g. 202XXXXXXXXXP" alphanumeric>
+      </div>
+      
+      <br>
+
+      <div class="bhawan">
+        <label for="bhawan-select" id="box-head">Choose your Bhawan</label>
+        <select name="bhawan" id="bhawan-select" required>
+           <option value="">--Please choose an option--</option>
+           <option value="Ram">Ram Bhawan</option>
+           <option value="Budh">Budh Bhawan</option>
+           <option value="Krishna">Krishna Bhawan</option>
+           <option value="Gandhi">Gandhi Bhawan</option>
+           <option value="Shankar">Shankar Bhawan</option>
+           <option value="Vyas">Vyas Bhawan</option>
+           <option value="Vishwakarma">Vishwakarma Bhawan</option>
+           <option value="Bhagirath">Bhagirath Bhawan</option>
+           <option value="Rana Pratap">Rana Pratap Bhawan</option>
+           <option value="Ashok">Ashok Bhawan</option>
+           <option value="Malviya">Malviya Bhawan</option>
+  
+        </select>
+      </div>
+
+      <br>
+
+      <!--Uploading pictures of t-shirts-->
+      
+
+      
+      <div class="merchDesign">
+        <fieldset class="merchDesign">
+        <legend>Following designs are available:</legend>
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFSkTBcW9IDZntwh4F2RlewCrrw3ZxeQoXX2nWNiz0odliO4KwWUVQY5gHG5YJypIxodk&usqp=CAU" height="325px">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3FfAjMw8RKiJ3biIv61vLRwiwqaRZsGDmEIiX78nEB37GUMhvRZm2gjGhU_dWN57BgUo&usqp=CAU" height="350px">
+        
+        <br>
+        
+        <input type="radio" id="design-1" value="design-1">
+        <input type="radio" id="design-2" value="design-2">
+
+      </fieldset>
+      </div>
+
+      
+
+      <!--Radio-button for choosing a size-->
+
+      <div class="merchSize">
+        
+        <!--put div tag in <fieldset></fieldset> to make a box outside it -->
+        <!--add checked at the end of input tag(inside it before backslash) to make it checked by default-->
+          <legend>Select T-shirt size:</legend>
+        
+          <div>
+            <input type="radio" id="s-size" name="merchSize" value="l-size" required/>
+            <label for="s-size">S</label>
+          </div>
+        
+          <div>
+            <input type="radio" id="l-size" name="merchSize" value="l-size" required/>
+            <label for="l-size">L</label>
+          </div>
+        
+          <div>
+            <input type="radio" id="xl-size" name="merchSize" value="xl-size" required/>
+            <label for="xl-size">XL</label>
+          </div>
+        
+        
+      </div>
+
+      <br>
+
+      <!--Checkbox to ask if they agree to the terms and conditions-->
+
+      <div class="agree">
+       
+          <lable for="agree">agree to the terms and conditions</lable>
+        
+          
+            <input type="checkbox" id="agree" name="agree" required/>
+ 
+      </div>
+
+      <br>
+      
+
+      <!--Submit button-->
+
+      <input type="submit" value="Submit" class="form-button">
+      <input type="reset" value="Reset" class="form-button">
+    </div>
+  </form>
+    <!--
+
+      Add Merch image (label it select Merch) and make a radio button with multiple options to select
+      Add options to choose between various merch designs
+
+    -->
+
+    <script src="main.js"></script> 
+
+</body>
+</html>
